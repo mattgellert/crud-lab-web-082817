@@ -5,7 +5,6 @@ import createStore from './createStore';
 import manageRestaurant from './reducers/manageRestaurant';
 
 const store = createStore(manageRestaurant);
-
 function render() {
   ReactDOM.render(
     <App store={store} />,
